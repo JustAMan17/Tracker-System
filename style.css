@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: radial-gradient(rgb(245, 151, 151) 5%, rgb(173, 173, 71) 15%, rgb(179, 77, 77) 60%);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #3d0707;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    width: 50%;
+    padding: 1em;
+    font-size: 1.2em;
+    margin: 1em 0;
+    background-color: #3d0707;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #3a0707;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Calendar */
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  
+  td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  td:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .log ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .log ul li {
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
